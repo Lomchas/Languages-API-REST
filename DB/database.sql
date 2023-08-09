@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS languages;
 USE languages;
 
 CREATE TABLE root_languages (
-    id INT NOT NULL AUTO_INCREMENT,
+    id INT AUTO_INCREMENT,
     languages_name VARCHAR(100) DEFAULT NULL,
     PRIMARY KEY (id)
 )
